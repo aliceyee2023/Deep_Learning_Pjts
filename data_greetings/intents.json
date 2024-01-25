@@ -1,0 +1,39 @@
+{
+   "intents": [
+     {
+       "tag" : "greetings",
+       "patterns" : [
+         "Hi",
+         "Hey",
+         "How are you?",
+         "Is anyone there?",
+         "Hello",
+         "GoodDay"
+       ],
+       "responses": [
+         "Hey",
+         "Hello",
+         "Hi there, what can I do for you?",
+         "Hi there, how can I help you?"
+
+       ]
+     },
+     {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's"],
+        "responses": ["Happy to help!","Any time!"],
+     },
+     {
+       "tag": "items",
+       "patterns": [
+         "Which items do you have?",
+         "What kinds of items are there?",
+         "What do you sell?"
+       ],
+       "responses":[
+         "We sell coffee and tea",
+         "We have coffee and tea"
+       ]
+     }
+   ]
+}
